@@ -5,6 +5,7 @@ import CurvedGallery from './CurvedGallery'
 import Divider from '../components/Divider'
 import ImageGallery from '../components/ImageGallery'
 import ExperiencePage from '../components/ExperiencePage'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <ImageGallery />
      </div>
       <ExperiencePage />
+      <Footer />
     </div>
   )
 }
