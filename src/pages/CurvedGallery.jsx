@@ -26,7 +26,7 @@ const CurvedGallery = () => {
     for (let i = 0; i < VISIBLE_COUNT; i++) {
       visible.push({
         src: images[(startIdx + i) % total],
-        position: i, 
+        position: i,
       });
     }
     return visible;
@@ -48,7 +48,7 @@ const CurvedGallery = () => {
       </h2>
 
       <div className="slider-container">
-        <div className="slider-wrapper">
+        <div className="slider-wrapper transition-transform duration-1000 ease-in-out" key={startIdx}>
           {getVisibleImages().map((item, idx) => (
             <div
               className={`slider-image pos-${item.position}`}
