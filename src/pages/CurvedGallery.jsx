@@ -26,7 +26,7 @@ const CurvedGallery = () => {
     for (let i = 0; i < VISIBLE_COUNT; i++) {
       visible.push({
         src: images[(startIdx + i) % total],
-        position: i, // 0 to 4 for CSS class assignment
+        position: i, 
       });
     }
     return visible;
