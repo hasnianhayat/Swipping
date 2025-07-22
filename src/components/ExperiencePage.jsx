@@ -1,5 +1,11 @@
 import React from "react";
 import FeatureSection from "./FeatureSection";
+import img1 from "../assets/image3.png"
+import img2 from "../assets/image4.png"
+import img3 from "../assets/image5.png"
+import img4 from "../assets/image6.png"
+
+
 
 const ExperiencePage = () => {
   return (
@@ -136,9 +142,9 @@ const ExperiencePage = () => {
                 {/* Competitive Pricing */}
                 <div className="flex gap-4">
                   <img
-                    src="/icons/pricing-icon.svg"
+                    src={img1}
                     alt="Pricing"
-                    className="w-10 h-10"
+                    className="w-12 h-12"
                   />
                   <div className="items-start text-start">
                     <h3 className="font-semibold text-lg items-start text-start text-[#230C0F]">
@@ -152,11 +158,11 @@ const ExperiencePage = () => {
                 </div>
 
                 {/* Certified Experts */}
-                <div className="flex gap-4 border-t pt-4">
+                <div className="flex gap-4 border-t-2 border-gray-500 pt-4">
                   <img
-                    src="/icons/certified-icon.svg"
+                        src={img2}
                     alt="Certified"
-                    className="w-10 h-10"
+                    className="w-12 h-12"
                   />
                   <div>
                     <h3 className="font-semibold items-start text-start text-lg text-[#230C0F]">
@@ -174,11 +180,11 @@ const ExperiencePage = () => {
 
               <div className="flex flex-col gap-y-10">
                 {/* Easy Financing */}
-                <div className="flex gap-4 border-t pt-4 md:border-none md:pt-0">
+                <div className="flex gap-4 border-t  pt-4 md:border-none md:pt-0">
                   <img
-                    src="/icons/financing-icon.svg"
+                      src={img3}
                     alt="Financing"
-                    className="w-10 h-10"
+                    className="w-12 h-12"
                   />
                   <div>
                     <h3 className="font-semibold items-start text-start text-lg text-[#230C0F]">
@@ -196,11 +202,11 @@ const ExperiencePage = () => {
                 </div>
 
                 {/* 100% Satisfaction */}
-                <div className="flex gap-4 border-t pt-4">
+                <div className="flex gap-4 border-t-2 border-gray-500 pt-4">
                   <img
-                    src="/icons/satisfaction-icon.svg"
+                       src={img4}
                     alt="Satisfaction"
-                    className="w-10 h-10"
+                    className="w-12 h-12"
                   />
                   <div>
                     <h3 className="font-semibold items-start text-start text-lg text-[#230C0F]">
