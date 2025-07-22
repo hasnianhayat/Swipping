@@ -179,7 +179,6 @@ const ExperiencePage = () => {
               <div className="w-[1px] h-full bg-black"></div>
 
               <div className="flex flex-col gap-y-10">
-                {/* Easy Financing */}
                 <div className="flex gap-4 border-t  pt-4 md:border-none md:pt-0">
                   <img
                       src={img3}
@@ -201,7 +200,6 @@ const ExperiencePage = () => {
                   </div>
                 </div>
 
-                {/* 100% Satisfaction */}
                 <div className="flex gap-4 border-t-2 border-gray-500 pt-4">
                   <img
                        src={img4}
