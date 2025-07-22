@@ -13,8 +13,8 @@ function Home() {
       <Navbar />
       <HeroSection/>
       <CurvedGallery />
-     <div >
-       <Divider />
+     <div className='pt-10' >
+       {/* <Divider /> */}
       <ImageGallery />
      </div>
       <ExperiencePage />
