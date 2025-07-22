@@ -157,7 +157,6 @@ const ExperiencePage = () => {
                   </div>
                 </div>
 
-                {/* Certified Experts */}
                 <div className="flex gap-4 border-t-2 border-gray-500 pt-4">
                   <img
                         src={img2}
