@@ -136,7 +136,6 @@ const ExperiencePage = () => {
               </div>
             </div>
 
-            {/* Middle & Right Section */}
             <div className="md:w-2/3 flex gap-10">
               <div className="flex flex-col gap-y-10 mt-18">
                 <div className="flex gap-4">
