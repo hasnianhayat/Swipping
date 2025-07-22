@@ -16,7 +16,6 @@ const ExperiencePage = () => {
           Book Your Experience
         </h1>
         <div className="flex b flex-col md:flex-row justify-center items-start gap-10 max-w-6xl mx-auto">
-          {/* Contact Form */}
           <div className="bg-[#D9D9D9] w-full md:w-1/2 p-6 rounded shadow">
             <h2 className="text-4xl font-semibold mb-4 text-[#48746D] ">
               Connect with Us
