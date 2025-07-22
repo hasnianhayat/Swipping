@@ -63,7 +63,6 @@ const ExperiencePage = () => {
                 ></textarea>
               </div>
 
-              {/* Submit Button */}
               <button
                 type="submit"
                 className="w-full bg-[#48746D] text-white py-2 rounded cursor-pointer transition duration-300"
