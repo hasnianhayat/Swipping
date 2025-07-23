@@ -80,7 +80,6 @@ const CurvedGallery = () => {
           ))}
         </div>
 
-        {/* Right Button */}
         <button
           aria-label="Next"
           className="hidden sm:block"
