@@ -122,14 +122,12 @@ body, html {
   }
 
   .slider-image:nth-child(1){
-      /* transform: rotateY(15deg) translateX(10px) translateZ(10px); */
       display: none;
   }
 
 
 
   .slider-image:nth-child(5) {
-    /* transform: rotateY(15deg) translateX(10px) translateZ(10px); */
     display: none;
   }
 
