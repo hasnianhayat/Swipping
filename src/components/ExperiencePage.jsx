@@ -1,11 +1,13 @@
 import React from "react";
 import FeatureSection from "./FeatureSection";
-import img1 from "../assets/image3.png"
-import img2 from "../assets/image4.png"
-import img3 from "../assets/image5.png"
-import img4 from "../assets/image6.png"
-
-
+import img1 from "../assets/image3.png";
+import img2 from "../assets/image4.png";
+import img3 from "../assets/image5.png";
+import img4 from "../assets/image6.png";
+import trustedpartner from "../assets/new/istockphoto-973374928-2048x2048.jpg";
+import localinsgihts from "../assets/new/WhatsApp Image 2025-07-22 at 5.48.50 PM.jpeg";
+import realtime from "../assets/new/image (1).png";
+import newfrom from "../assets/new/newone.png";
 
 const ExperiencePage = () => {
   return (
@@ -138,13 +140,13 @@ const ExperiencePage = () => {
               <div className="flex flex-col gap-y-10 mt-18">
                 <div className="flex gap-4">
                   <img
-                    src={img1}
+                    src={trustedpartner}
                     alt="Pricing"
                     className="w-12 h-12"
                   />
                   <div className="items-start text-start">
                     <h3 className="font-semibold text-lg items-start text-start text-[#230C0F]">
-                      Competitive Pricing
+                      Trusted Partnerships
                     </h3>
                     <p className="text-sm items-start text-start w-[70%] text-gray-700">
                       Experience quality without breaking the bank—we offer fair
@@ -155,19 +157,20 @@ const ExperiencePage = () => {
 
                 <div className="flex gap-4 border-t-2 border-gray-500 pt-4">
                   <img
-                        src={img2}
+                    src={localinsgihts}
                     alt="Certified"
                     className="w-12 h-12"
                   />
                   <div>
                     <h3 className="font-semibold items-start text-start text-lg text-[#230C0F]">
-                      Certified Experts
+                      local insight
                     </h3>
                     <p className="text-sm items-start text-start text-gray-700">
                       Choose Razor for proven excellence backed by certified
                       professionals.
                     </p>
-                  </div>change
+                  </div>
+                  change
                 </div>
               </div>
 
@@ -175,14 +178,10 @@ const ExperiencePage = () => {
 
               <div className="flex flex-col gap-y-10">
                 <div className="flex gap-4 border-t  pt-4 md:border-none md:pt-0">
-                  <img
-                      src={img3}
-                    alt="Financing"
-                    className="w-12 h-12"
-                  />
+                  <img src={realtime} alt="Financing" className="w-12 h-12" />
                   <div>
                     <h3 className="font-semibold items-start text-start text-lg text-[#230C0F]">
-                      Easy Financing
+                      REal time support
                     </h3>
                     <p className="text-sm items-start text-start text-gray-700">
                       Don’t let budget constraints stop you—explore our
@@ -196,14 +195,10 @@ const ExperiencePage = () => {
                 </div>
 
                 <div className="flex gap-4 border-t-2 border-gray-500 pt-4">
-                  <img
-                       src={img4}
-                    alt="Satisfaction"
-                    className="w-12 h-12"
-                  />
+                  <img src={newfrom} alt="Satisfaction" className="w-12 h-12" />
                   <div>
                     <h3 className="font-semibold items-start text-start text-lg text-[#230C0F]">
-                      100% Satisfaction
+                      Effortless Plaining
                     </h3>
                     <p className="text-sm items-start text-start text-gray-700">
                       Don’t just take our word for it —
