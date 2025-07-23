@@ -47,7 +47,29 @@ const CurvedGallery = () => {
         Curved 3D Smooth Slider
       </h2>
 
-      <div className="slider-container">
+      <div className="slider-container  " style={{ position: 'relative', width: '100%' }}>
+        {/* Left Button */}
+        <button
+          aria-label="Previous"
+          className="hidden sm:block"
+          style={{
+            position: 'absolute',
+            left: 25,
+            top: '50%',
+            transform: 'translateY(-50%)',
+            zIndex: 10,
+            background: 'white',
+            border: '1px solid #ccc',
+            borderRadius: '50%',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+            padding: '10px 16px',
+            cursor: 'pointer',
+          }}
+          onClick={() => setStartIdx((prev) => (prev - 1 + total) % total)}
+        >
+          &#8592;
+        </button>
+
         <div className="slider-wrapper transition-transform duration-1000 ease-in-out" key={startIdx}>
           {getVisibleImages().map((item, idx) => (
             <div
@@ -58,6 +80,28 @@ const CurvedGallery = () => {
             </div>
           ))}
         </div>
+
+        {/* Right Button */}
+        <button
+          aria-label="Next"
+          className="hidden sm:block"
+          style={{
+            position: 'absolute',
+            right: 0,
+            top: '50%',
+            transform: 'translateY(-50%)',
+            zIndex: 10,
+            background: 'white',
+            border: '1px solid #ccc',
+            borderRadius: '50%',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+            padding: '10px 16px',
+            cursor: 'pointer',
+          }}
+          onClick={() => setStartIdx((prev) => (prev + 1) % total)}
+        >
+          &#8594;
+        </button>
       </div>
     </div>
   );
