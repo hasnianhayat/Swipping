@@ -32,20 +32,17 @@ const Footer = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 py-16 flex flex-col gap-12">
-          {/* Title */}
           <div>
             <h1
-              className="text-4xl md:text-7xl font-bold tracking-tight text-white/30 text-center"
+              className="text-4xl mt-10 md:text-9xl font-bold tracking-tight text-white/30 text-center"
               style={{ textShadow: "0 4px 24px #0008" }}
             >
               Breathe In Nature
             </h1>
           </div>
 
-          {/* Subscribe Section */}
           <div className="flex flex-col lg:flex-row justify-between items-center text-center gap-8">
             <p className="text-base sm:text-lg md:text-xl text-white/70 max-w-xl mx-auto">
               Join the Selva Insider Club – Be the first <br className="hidden sm:block" /> to uncover new
