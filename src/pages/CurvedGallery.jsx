@@ -48,7 +48,6 @@ const CurvedGallery = () => {
       </h2>
 
       <div className="slider-container  " style={{ position: 'relative', width: '100%' }}>
-        {/* Left Button */}
         <button
           aria-label="Previous"
           className="hidden sm:block"
