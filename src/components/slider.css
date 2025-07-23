@@ -134,7 +134,7 @@ body, html {
   }
 
   .slider-image:nth-child(2){
-    transform: rotateY(10deg) translateX(5px) translateZ(-40px);
+    transform: rotateY(10deg) translateX(7px) translateZ(-40px);
     margin-left: 25px;
   }
 
@@ -142,7 +142,7 @@ body, html {
 
 
   .slider-image:nth-child(4) {
-    transform: rotateY(0deg) translateX(5px) translateZ(-50px);
+    transform: rotateY(0deg) translateX(0px) translateZ(-50px);
   }
 
   .slider-image:nth-child(3) {
